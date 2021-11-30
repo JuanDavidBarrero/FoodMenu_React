@@ -10,7 +10,7 @@
 }
 
 .gallery-title{
-    font-size: 13rem;
+    font-size: 8rem;
     color: #fff;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
@@ -24,14 +24,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 8rem;
-    margin-top: 10rem;
+    gap: 5rem;
+    margin-top: 8rem;
 }
 
 .gallery-link{
     position: relative;
 }
-
 
 
 .gallery-link::before{
@@ -51,7 +50,7 @@
 }
 
 .gallery-img{
-    width: 24vw;
+    width: 22vw;
     height: 15vw;
     object-fit: cover;
     box-shadow: 0.3rem 0.3rem 0.1rem #e92929, 0.5rem 0.5rem 0.1rem #a2e946, 0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem #e92999;
@@ -101,7 +100,7 @@
 
 .gallery-description{
     position: absolute;
-    bottom: 3vw;
+    bottom: 2vw;
     left: 2rem;
     width: 70%;
     font-size: 1.3rem;
