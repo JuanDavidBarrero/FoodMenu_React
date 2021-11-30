@@ -72,5 +72,77 @@
     box-shadow: 0.1rem 0.1rem 0.1rem #000;
 }
 
+ @media (max-width:1400px) {
+    .navbar-links i {
+        font-size: 5rem;
+    }
+    .navbar-links{
+       
+        margin: 0 2rem;
+    
+    }
+    
+ }
+
+ @media (max-width:950px) {
+    .navbar-links i {
+        font-size: 5rem;
+    }
+    .navbar-links{
+       
+        margin: 0 1rem;
+    }  
+
+    .navbar-links span{
+        font-size: 2rem;
+    }
+ }
+ 
+
+ @media (max-width:800px) {
+    .navbar-links i {
+        font-size: 4rem;
+    }
+    .navbar-links{
+       
+        margin: 0 1rem;
+    }  
+
+    .navbar-links span{
+        font-size: 2rem;
+    }
+ }
+
+ 
+ @media (max-width:650px) {
+    .navbar-links i {
+        font-size: 3rem;
+    }
+    .navbar-links{
+       
+        margin: 0 1rem;
+    }  
+
+    .navbar-links span{
+        font-size: 1.5rem;
+    }
+ }
+
+ @media (max-width:550px) {
+
+    .navbar-links span{
+        font-size: 1rem;
+    }
+ }
+
+ @media (max-width:450px) {
+    .navbar-links i {
+        font-size: 1.6rem;
+    }
+    .navbar-links span{
+        font-size: 0.8rem;
+    }
+ }
+ 
  
 

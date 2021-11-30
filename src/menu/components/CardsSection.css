@@ -14,7 +14,8 @@
     font-size: 8rem;
     text-align: center;
     text-transform: capitalize;
-    text-shadow: 0.3rem 0.3rem 0.3rem #000;
+    font-weight: 900;
+    text-shadow: 0.5rem 0.5rem 0.5rem #000;
     margin-bottom: 5rem;
 }
 
@@ -95,4 +96,45 @@
 
 .card-img{
     width: 100%;
+}
+
+
+@media (max-width: 1300px) {
+    .card-title{
+        font-size: 7rem;
+    }
+}
+
+@media (max-width:1150px){
+    .cards-section{
+        height: auto;  
+    }
+    .card-wraper{
+        display: flex;
+        flex-wrap: wrap;
+        padding:5rem;
+    }
+
+    .card{
+       margin: 10rem;
+    }
+}
+
+@media (max-width:950px) {
+    .card-title{
+        font-size: 5rem;
+    }
+    .icons-wrapper i{
+        font-size: 20rem;
+    }
+}
+
+
+@media (max-width:800px) {
+    .card-title{
+        font-size: 3rem;
+    }
+    .icons-wrapper i{
+        font-size: 20rem;
+    }
 }

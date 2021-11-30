@@ -6,7 +6,7 @@ export const Footer = () => {
         <>
             <footer>
                 <div className="just-text">
-                    <h2 className="heading">Sing me up</h2>
+                    <h2 className="heading">Sign me up</h2>
                     <p className="paragraph">Be the first to know about new producs</p>
                 </div>
                 <form className="singup-form">
